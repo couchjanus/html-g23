@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
 
 /* common */
+
+*{
+    box-sizing: border-box;
+}
 html{
     font-size: 16px;
 }
 
 body{
+    margin: 0;
     color: #1d1410;
     font-size: 1.1rem;
     line-height: 1.5;
@@ -18,11 +23,43 @@ a{
     color: #1d1410;
 }
 
-/* layouts */
-.container{
-
+.img-fluid{
+    max-width: 100%;
+    height: auto;
 }
 
+/* layouts */
+.container{
+    width: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+.showcase{
+    margin: 0 auto;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0%;
+}
+.list-inline-item{
+    display: inline-block;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-3{
+    margin-bottom: 1.5em;
+}
+.mb-4{
+    margin-bottom: 1.7em;
+}
+
+
+/* text */
+.text-muted{
+    color: darkgray;
+}
 /* navigation */
 .navbar-brand{
 
@@ -37,5 +74,11 @@ a{
 .nav-link{
     font-size: 1.2em;
 }
+
+
+.product{
+    width: 250px;
+}
+
 /* footer */
 

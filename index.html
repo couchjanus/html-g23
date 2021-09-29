@@ -5,28 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
     <!-- navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <!-- brand -->
+            <a href="#" class="navbar-brand">My Site</a>
+            <!-- navbar -->
+            <ol class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+            </ol>
+        </div>
+    </nav>
+
     <div class="container">
-        <!-- brand -->
-        <a href="#" class="navbar-brand">My Site</a>
-        <!-- navbar -->
-        <ol class="navbar-nav">
-            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="catalog.html">Catalog</a></li>
-            <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        </ol>
+        <section class="hero">
+            <!-- slider -->
+            <h1>Test Title</h1>
+        </section>
+
+
+        <!-- carousel -->
+        <div class="carousel"></div>
+        <section class="showcase">
+            <!-- showcase -->
+            <header class="mb-3">
+                <h2 class="mb-0">Featured products</h2>
+                <p class="text-muted">Browse the Newest Products</p>
+            </header>
+            <div class="container">
+                <article class="product mb-4">
+                    <img src="images/product-2.jpg" class="img-fluid" alt="Product picture">
+                    <div class="btn-block">
+                        <i class="far fa-heart"></i>
+                        <i class="fas fa-expand"></i>
+                        <i class="fas fa-dolly-flatbed"></i>
+                    </div>
+                    <h6 class="text-center">Product name</h6>
+                    <p class="text-center font-weight-bold">$55.99</p>
+                </article>
+                
+            </div>
+
+        </section>
+   
+
+
     </div>
 
-    <!-- carousel -->
-    <h1>Test Title</h1>
-    <!-- showcase -->
+    
    
 
 
    <!-- footer -->
+   <footer class="bg-dark">
+       <ul class="list-inline">
+           <li class="list-inline-item"><a href="" class="social-icon"><i class="fab fa-facebook"></i></a></li>
+           <li class="list-inline-item"><a href="" class="social-icon"><i class="fab fa-twitter"></i></a></li>
+           <li class="list-inline-item"><a href="" class="social-icon"><i class="fab fa-youtube"></i></a></li>
+           <li class="list-inline-item"><a href="" class="social-icon"><i class="fab fa-google-plus"></i></a></li>
+       </ul>
+   </footer>
 </body>
 </html>
