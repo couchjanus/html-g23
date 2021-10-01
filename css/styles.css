@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap');
 
+::root{
+    --font-size-small: calc((14/16)*1rem);
+    --font-size-default: calc((16/16)*1rem);
+    --font-size-large: calc((24/16)*1rem);
+
+    --grey-5: hsl(210, 22%, 49%);
+    --grey-6: hsl(209, 23%, 60%);
+    --grey-7: hsl(211, 27%, 70%);
+
+    --text-base-size: 1em;
+    --font-sans-serif: 'Open Sans', sans-serif;
+}
+
 /* common */
 
 *{
@@ -12,10 +25,10 @@ html{
 body{
     margin: 0;
     color: #1d1410;
-    font-size: 1.1rem;
+    font-size: calc(var(--text-base-size)*0.2em);
     line-height: 1.5;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: var(--font-sans-serif);
    
 }
 
@@ -34,6 +47,33 @@ a{
     text-align: center;
     margin: 0 auto;
 }
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width: calc(100% / 12);
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: calc(100% / 3);
+    flex: 0 0 auto;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-9{
+    width:75%;
+}
+
 .showcase{
     margin: 0 auto;
 }
@@ -77,8 +117,29 @@ a{
 
 
 .product{
-    width: 250px;
+    width: 280px;
+    margin-left: 1em;
 }
 
 /* footer */
 
+.list-unstyles{
+    list-style: none;
+    padding: 0;
+}
+
+.bg-dark{
+    background-color: #1d1410;
+}
+.text-white{
+    color: ivory;
+}
+
+.anchor,
+.social-icon {
+    color: white;
+}
+
+.text-center{
+    text-align: center;
+}
