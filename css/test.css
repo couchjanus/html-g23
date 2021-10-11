@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+
+mytag{
+    font-size: 5cm;
+    color: aqua;
+}
+
+div{
+    color: greenyellow;
+}
+
+.div{
+    color: orange;
+}
