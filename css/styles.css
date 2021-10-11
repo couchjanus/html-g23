@@ -428,6 +428,9 @@ nav{
     padding-top: 5rem !important;
     padding-bottom: 5rem !important;
 }
+.mx-auto{
+    margin: 0 auto !important;
+}
 
 .bg-center{
     background-position: center center !important;

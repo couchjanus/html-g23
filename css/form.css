@@ -1,0 +1,27 @@
+.form-label{
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#212529;
+    background-color: white;
+    border: 1px solid #ced4da;
+    transform: border-color 0.15s ease-i-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus{
+    color:indigo;
+    border-color: darkviolet;
+    box-shadow: 0 0 0 .2rem rgba(70, 80, 221, 0.25);
+    outline: 0;
+}
+
+.form-control::placeholder{
+    color: darkgrey;
+    opacity: 1;
+}

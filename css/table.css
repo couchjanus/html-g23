@@ -1,0 +1,16 @@
+.table{
+    width: 100%;
+    margin-bottom: 1rem;
+    color: gray;
+    vertical-align: top;
+    border-color: lavender;
+}
+
+.p-3{
+    padding: 1rem;
+}
+
+.align-middle{
+    vertical-align: middle !important;
+}
+
