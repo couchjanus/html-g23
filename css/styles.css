@@ -586,3 +586,113 @@ nav{
 .bg-danger{
     background-color: red;
 }
+
+.form-label{
+    margin-bottom: 1rem;
+}
+
+.form-control{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#212529;
+    background-color: white;
+    border: 1px solid #ced4da;
+    transform: border-color 0.15s ease-i-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus{
+    color:indigo;
+    border-color: darkviolet;
+    box-shadow: 0 0 0 .2rem rgba(70, 80, 221, 0.25);
+    outline: 0;
+}
+
+.form-control::placeholder{
+    color: darkgrey;
+    opacity: 1;
+}
+
+/* modal  */
+
+.h-100{
+    height: 100% !important;
+}
+
+.modal-window > div{
+    width: auto;
+    margin: .5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 2em;
+    background: white;
+    transform: translate(-50%, -50%);
+}
+
+.text-warning{
+    color: gold;
+}
+
+.modal-close{
+    position: absolute;
+    top:-1px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #4455dd !important;
+    color: cornsilk;
+    padding: 0;
+    opacity: 1 !important;
+    transition: all 0.3s;
+    
+}
+
+.modal-close:hover{
+    background: blueviolet !important;
+    color: white;
+}
+
+.modal-window > div{
+    border-radius: 1rem;
+}
+
+.quantity{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0;
+    max-width: 5rem;
+}
+
+.modal-content{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.modal-window{
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+    transition: all 0.4s;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+
+}
+
+.modal-window:target{
+    visibility: visible;
+    opacity: 1;
+    pointer-events: auto;
+}
